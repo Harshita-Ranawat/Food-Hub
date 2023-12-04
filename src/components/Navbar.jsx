@@ -6,7 +6,7 @@ const Navbar = () => {
   const dispatch = useDispatch();
   return (
     <nav className="flex flex-col lg:flex-row justify-between py-3 mx-6 mb-1">
-      <div><span ><img  className="h-10 w-10"src="./src/assets/logo-food.png" alt="Description of the image" /></span>
+      <div>
         <h3 className="text-xl font-bold text-black
         ">
           {new Date().toUTCString().slice(0, 16)}

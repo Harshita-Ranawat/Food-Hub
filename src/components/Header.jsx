@@ -12,7 +12,7 @@ const Header = ({ title, image, type }) => {
           />
         </div>
   
-        <div className='absolute w-full h-full top-0 z-8 flex flex-col items-center justify-center pt-40 2xl:pt-20 px-4 '>
+        <div className='absolute w-full h-full mt-[200px] top-0 z-8 flex flex-col items-center justify-center pt-40 2xl:pt-20 px-4 '>
           <h1 className='text-white text-4xl md:text-5xl font-bold text-center'>{title}</h1>
           {
             type && (

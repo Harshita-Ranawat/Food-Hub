@@ -8,6 +8,7 @@ const CategorySlice = createSlice({
   reducers: {
     setCategory: (state, action) => {
       state.category = action.payload;
+     // console.log("qwertyui",action.payload);
     },
   },
 });

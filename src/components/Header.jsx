@@ -12,7 +12,11 @@ const Header = ({ title, image, type }) => {
           />
         </div>
   
+<<<<<<< HEAD
         <div className='absolute w-full h-full top-0  mt-[200px] z-8 flex flex-col items-center justify-center pt-40 2xl:pt-20 px-4 '>
+=======
+        <div className='absolute w-full h-full mt-[200px] top-0 z-8 flex flex-col items-center justify-center pt-40 2xl:pt-20 px-4 '>
+>>>>>>> 97633d21fe01d6934fa7042ff815271695f08320
           <h1 className='text-white text-4xl md:text-5xl font-bold text-center'>{title}</h1>
           {
             type && (
@@ -26,4 +30,8 @@ const Header = ({ title, image, type }) => {
     )
   }
   
+<<<<<<< HEAD
   export default Header 
+=======
+  export default Header
+>>>>>>> 97633d21fe01d6934fa7042ff815271695f08320

@@ -26,4 +26,4 @@ const Header = ({ title, image, type }) => {
     )
   }
   
-  export default Header
+  export default Header 

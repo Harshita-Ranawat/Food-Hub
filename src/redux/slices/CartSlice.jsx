@@ -16,8 +16,8 @@ const CartSlice = createSlice({
         );
       } else {
         state.cart.push(action.payload);
-        console.log("asdfg",action.payload);
-        console.log("chintu",action.payload);
+       
+       
 
       }
     },

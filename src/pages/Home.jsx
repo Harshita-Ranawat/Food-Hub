@@ -9,12 +9,7 @@ const Home = () => {
   return (
   <>
     <Navbar/>
-    <Header title={
-        <p>Discover the best food 
-        <br/> Food Hub </p>
-    }
-     type='home'  
-    />
+
     <CategoryMenu/>
     <FoodItems/>
     <Cart/>
